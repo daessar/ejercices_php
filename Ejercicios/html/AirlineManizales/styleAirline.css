@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  box-shadow: 0 10px 5px 0 rgb(0 0 0 / 10%);
+}
+.header_title {
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  font-weight: 800;
+  text-align: left;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.nav_bar {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+main {
+  display: flex;
+  width: 100%;
+  min-height: 77vh;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 70%;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 1px 5px 12px 2px #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.origen_destino {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.origen_destino label {
+  font-size: 20px;
+}
+.origen_destino p {
+  font-size: 40px;
+  font-weight: 1200;
+}
+.container_adicionales {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_clase {
+  width: 50%;
+  height: inherit;
+  text-align: center;
+}
+.title_adicionales {
+  font-size: 20px;
+}
+
+.containe_servicios {
+  width: 50%;
+  height: inherit;
+  text-align: center;
+}
+select {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 3px;
+}
+.container_name_age {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.title_data {
+  font-size: 20px;
+}
+.input_name {
+  width: 400px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.input_age {
+  width: 90px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.container_boton {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_boton input {
+  font-size: 25px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+  box-shadow: 1px 5px 12px 2px #888;
+  border: 1px solid red;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  color: white;
+}

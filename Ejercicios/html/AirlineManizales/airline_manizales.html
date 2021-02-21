@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleAirline.css" />
+    <title>Arline Manizales ✈</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_title">
+        <p>Airline Manizales 🛩</p>
+      </div>
+      <div class="nav_bar">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Trip</li>
+            <li>About</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <form target="_blank" action="airline_manizales.php" method="post">
+          <div class="origen_destino">
+            <label for="origen">Origen</label>
+            <select name="origen" id="origen">
+              <option value="0">Selecione una ciudad</option>
+              <option value="manizales">Manizales</option>
+              <option value="pereira">Pereira</option>
+              <option value="neiva">Neiva</option>
+              <option value="pasto">Pasto</option>
+            </select>
+            <p>→</p>
+            <label for="destino">Destino</label>
+            <select name="destino" id="destino">
+              <option value="0">Selecione una ciudad</option>
+              <option value="manizales">Manizales</option>
+              <option value="pereira">Pereira</option>
+              <option value="neiva">Neiva</option>
+              <option value="pasto">Pasto</option>
+            </select>
+          </div>
+          <div class="container_adicionales">
+            <div class="container_clase">
+              <p class="title_adicionales">Clase</p>
+              <br />
+              <label for="turista">Turista </label>
+              <input
+                type="radio"
+                name="clase"
+                id="turista"
+                checked
+                value="turista"
+              />
+              <label for="primera_clase">Primera Clase</label>
+              <input
+                type="radio"
+                name="clase"
+                id="primera_clase"
+                value="primera_clase"
+              />
+              <label for="ejecutivo">Ejecutivo</label>
+              <input
+                type="radio"
+                name="clase"
+                id="ejecutivo"
+                value="ejecutivo"
+              />
+            </div>
+            <div class="containe_servicios">
+              <p class="title_adicionales">Servicios</p>
+              <br />
+              <label for="alimentación">Alimentación</label>
+              <input type="checkbox" name="alimentacion" id="alimentación" />
+              <label for="internet">Internet</label>
+              <input type="checkbox" name="internet" id="internet" />
+              <label for="maletero">Maletero</label>
+              <input type="checkbox" name="maletero" id="maletero" />
+            </div>
+          </div>
+          <div class="container_name_age">
+            <label for="name" class="title_data">Nombre </label>
+            <input type="text" name="nombre" id="name" class="input_name" />
+            <label for="age" class="title_data">Edad</label>
+            <input type="number" name="edad" id="age" class="input_age" />
+          </div>
+          <div class="container_boton">
+            <input type="submit" value="Viajar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h3>Design by Daniels🎸</h3>
+    </footer>
+  </body>
+</html>

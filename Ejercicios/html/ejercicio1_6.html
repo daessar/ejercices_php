@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style_ejercices.css" />
+    <title>Ejercicios del 1 hasta el 6</title>
+  </head>
+  <body>
+    <header>
+      <h2>Ejercicios del 1 hasta el 6</h2>
+    </header>
+    <main>
+      <section>
+        <div class="section_title">
+          <p>Salario 💸</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php1.php">
+            <label for="salario"
+              >Salario Mensual:
+              <input
+                type="number"
+                name="salario"
+                id="salario"
+                placeholder="$pesos"
+            /></label>
+            <br />
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="section_title">
+          <p>Celulares 📱</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php2.php">
+            <table>
+              <tr>
+                <td>
+                  <label for="nombre_vendedor">Nombre del vendedor</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    name="name_vendedor"
+                    id="nombre_vendedor"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="num_cel_ven">Numero de celulares vendidos</label>
+                </td>
+                <td>
+                  <input type="number" name="cel_vendidos" id="num_cel_ven" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="total_vendidos">Valor total ventas</label>
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    name="total_ventas"
+                    id="total_vendidos"
+                  />
+                </td>
+              </tr>
+            </table>
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="section_title">
+          <p>Test 📄</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php3.php">
+            <table>
+              <tr>
+                <td>
+                  <label for="nombre_candidato">Nombre del candidato</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    name="name_candidato"
+                    id="nombre_candidato"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="num_pre_test">Numero de preguntas del test</label>
+                </td>
+                <td>
+                  <input type="number" name="num_preguntas" id="num_pre_test" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="pre_buenas">Numero preguntas buenas</label>
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    name="preguntas_buenas"
+                    id="pre_buenas"
+                  />
+                </td>
+              </tr>
+            </table>
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="section_title">
+          <p>IMC 🤸🏾‍♂️</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php4.php">
+            <table>
+              <tr>
+                <td>
+                  <label for="peso">Ingrese su peso: </label>
+                </td>
+                <td>
+                  <input type="number" name="peso" id="peso" placeholder="kg" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="estatura">Ingrese su estatura: </label>
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    name="estatura"
+                    id="estatura"
+                    placeholder="m"
+                    step="0.01"
+                  />
+                </td>
+              </tr>
+            </table>
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="section_title">
+          <p>Triangulo 📐</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php5.php">
+            <table>
+              <tr>
+                <td>
+                  <label for="base">Base: </label>
+                </td>
+                <td>
+                  <input type="number" name="base" id="base" placeholder="mm" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="altura">altura: </label>
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    name="altura"
+                    id="altura"
+                    placeholder="mm"
+                  />
+                </td>
+              </tr>
+            </table>
+            <p>Selecione lo que quiere calcular</p>
+            <label for="area">Area</label>
+            <input type="radio" name="operacion" id="area" value="area" />
+
+            <label for="perimetro">Perimetro</label>
+            <input
+              type="radio"
+              name="operacion"
+              id="perimetro"
+              value="perimetro"
+            />
+
+            <label for="hipotenusa">Hipotenusa</label>
+            <input
+              type="radio"
+              name="operacion"
+              id="hipotenusa"
+              value="hipotenusa"
+            />
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="section_title">
+          <p>Zapatos 👞</p>
+        </div>
+        <div class="section_content">
+          <form target="_blank" method="POST" action="../php/php6.php">
+            <table>
+              <tr>
+                <td>
+                  <label for="pares">Cantidad de pares: </label>
+                </td>
+                <td>
+                  <select name="select_pares" onchange="habilitar(this.value);">
+                    <option>Selecione cantidad</option>
+                    <option value="1" ">
+                      1
+                    </option>
+                    <option value="2">
+                      2
+                    </option>
+                    <option value="3">
+                      3
+                    </option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr style="display: none" id="input_valor_1">
+                <td>
+                  <label for="valor_par1">Valor par 1</label>
+                </td>
+                <td>
+                  <input type="number" name="valor_par1" id="valor_par1" placeholder="pesos" />
+                </td>
+              </tr>
+              <tr style="display: none" id="input_valor_2">
+                <td><label for="valor_par2">Valor par 2</label></td>
+                <td>
+                  <input type="number" name="valor_par2" id="valor_par2" placeholder="pesos" />
+                </td>
+              </tr>
+              <tr style="display: none" id="input_valor_3">
+                <td><label for="valor_par3">Valor par 3</label></td>
+                <td>
+                  <input type="number" name="valor_par3" id="valor_par3" placeholder="pesos" />
+                </td>
+              </tr>
+            </table>
+            <br />
+            <input type="submit" value="Calcular" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Design by Daniels🚀</p>
+    </footer>
+    <script src="../javascript/javascript.js"></script>
+  </body>
+</html>
